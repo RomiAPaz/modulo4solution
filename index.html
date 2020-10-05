@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module3-Solution</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- start of navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-secondary px-0">
+        <a class="navbar-brand ml-3 display-5 font-weight-bold">Food, LLC</a>
+        <button class="navbar-toggler mr-3 d-block d-sm-none" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse bg-light">
+            <ul class="navbar-nav mr-auto d-block d-sm-none font-weight-bold">
+                <li class="nav-item active border border-secondary">
+                    <a class="nav-link text-center" href="#chicken">Chicken <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item border border-secondary">
+                    <a class="nav-link text-center" href="#shushi" tabindex="-1" aria-disabled="true">Shushi</a>
+                </li>
+                <li class="nav-item border border-secondary">
+                    <a class="nav-link text-center" href="#beef" tabindex="-2" aria-disabled="true">Beef</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    
+    <!-- start of main content -->
+    <main>
+        <div class="container-fluid col-xs-12">
+            <h3 class="display-4 text-center">Our Menu</h3>
+            <div class="row mx-auto justify-content-around">
+                <div class="jumbotron bg-secondary col-md-4 col-sm-6 col-xs-12 " id="chicken">
+                    <h1 class="display-12 text-center">Chicken</h1>
+                    <p>
+                        One can eat chicken on a daily basis. 
+                        However, it is good to use cooking methods like boiling, grilling, 
+                        roasting or baking rather than frying as it can lead to various health problems. 
+                        People with kidney problems, chronic heart disease and dyslipidemia should avoid its intake. 
+                        Chicken has long been considered a healthy alternative to red meat. 
+                    </p>
+                </div>
+                <div class="jumbotron bg-secondary col-md-4 col-sm-6 col-xs-12 " id="shushi">
+                    <h1 class="display-12 text-center">Shushi</h1>
+                    <p>
+                        Sushi is the first name that strikes us when Japanese cuisine is mentioned. 
+                        Sushi is perhaps the best known Japanese food dish to the outside world. 
+                        It is a recipe that consists of rice and fish with a flavor of vinegar. 
+                        However, there are many variations of Sushi that are lesser known by people outside Japan.
+                    </p>
+                </div>
+                <div class="jumbotron bg-secondary col-md-4 col-sm-12 col-xs-12 " id="beef">
+                    <h1 class="display-12 text-center">Beef</h1>
+                    <p>
+                        Beef is the culinary name for meat from cattle, particularly skeletal muscle. 
+                        Humans have been eating beef since prehistoric times. 
+                        Beef is a source of protein and nutrients. 
+                        Trimmings, on the other hand, are usually mixed with meat from older, 
+                        leaner (therefore tougher) cattle, are ground, minced or used in sausages.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end of main content -->
+</body>
+</html>
